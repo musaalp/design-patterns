@@ -1,4 +1,5 @@
 ﻿using System;
+using TemplateMethod.AnotherSample;
 
 namespace TemplateMethodDesignPattern
 {
@@ -6,9 +7,13 @@ namespace TemplateMethodDesignPattern
     {
         static void Main(string[] args)
         {
-            var task = new TransferMoneyTask(new AuditTrail());
+            var window = new Window();
+            
+            window = new CheckoutWindow();
+            window.Close();
 
-            task.Execute();
+            window = new PaymentCompleteWindow();
+            window.Close();
         }
     }
 }
