@@ -11,9 +11,9 @@ namespace StrategyDesignPattern
             client.Send("Hello world");
 
             //sample 2
-            var fileName = "sampleImaeg.jpeg";
+            var fileName = "sampleImage.jpeg";
 
-            var strategyContext = new ImageStore();
+            var strategyContext = new ImageStoreContext();
 
             strategyContext.Store(fileName, new JpegCompressor(), new BlackAndWhiteFilter());
 

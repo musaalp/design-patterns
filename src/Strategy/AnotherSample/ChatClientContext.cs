@@ -4,18 +4,18 @@
     // strategy context
     public class ChatClientContext
     {
-        private readonly IEncrytor _encrytor;
+        private readonly IEncryptor _encryptor;
 
-        public ChatClientContext(IEncrytor encrytor)
+        public ChatClientContext(IEncryptor encryptor)
         {
-            _encrytor = encrytor;
+            _encryptor = encryptor;
         }
 
         public void Send(string message)
         {
-            _encrytor.Encrypt(message);
+            _encryptor.Encrypt(message);
 
-            System.Console.WriteLine("Message has been sended");
+            System.Console.WriteLine("Message has been sent");
         }
     }
 }
