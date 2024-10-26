@@ -1,7 +1,7 @@
 ﻿namespace Strategy.AnotherSample
 {
     // strategy type interface
-    public interface IEncrytor
+    public interface IEncryptor
     {
         void Encrypt(string message);
     }

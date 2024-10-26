@@ -1,7 +1,7 @@
 ﻿namespace StrategyDesignPattern
 {
     //strategy context
-    public class ImageStore
+    public class ImageStoreContext
     {
         public void Store(string fileName, ICompressor compressor, IFilter filter)
         {

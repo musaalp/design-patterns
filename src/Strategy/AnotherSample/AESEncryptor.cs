@@ -3,7 +3,7 @@
 namespace Strategy.AnotherSample
 {
     // concreate strategy type
-    public class AESEncryptor : IEncrytor
+    public class AESEncryptor : IEncryptor
     {
         public void Encrypt(string message)
         {
