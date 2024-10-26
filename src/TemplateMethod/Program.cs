@@ -6,7 +6,7 @@ namespace TemplateMethodDesignPattern
     {
         static void Main(string[] args)
         {
-            var task = new TransferMoneyTask();
+            var task = new TransferMoneyTask(new AuditTrail());
 
             task.Execute();
         }

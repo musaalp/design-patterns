@@ -7,9 +7,10 @@ namespace TemplateMethodDesignPattern
     public abstract class Task
     {
         private readonly AuditTrail _auditTrail;
-        public Task()
+
+        protected Task(AuditTrail auditTrail)
         {
-            _auditTrail = new AuditTrail();
+            _auditTrail = auditTrail;
         }
 
         public void Execute()
