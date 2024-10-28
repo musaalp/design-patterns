@@ -1,4 +1,6 @@
-﻿namespace AbstractFactory
+﻿using AbstractFactory.AnotherSample;
+
+namespace AbstractFactory
 {
     class Program
     {
@@ -12,6 +14,9 @@
 
             var instagramPublisher = new Publisher<InstagramPublisherFactory>();
             instagramPublisher.Publish();
+
+            //another sample demo
+            new Demo().Run();
         }
     }
 }
