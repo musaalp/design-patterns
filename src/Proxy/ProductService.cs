@@ -1,7 +1,6 @@
-﻿using ProxyDesignPattern;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace ProxyDesignPattern
+namespace Proxy
 {
     public class ProductService : IProductService
     {

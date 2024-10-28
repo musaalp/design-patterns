@@ -1,4 +1,4 @@
-﻿namespace AdaptorDesignPattern
+﻿namespace Adaptor
 {
     public class XBankPOSReader
     {

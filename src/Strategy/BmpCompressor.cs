@@ -1,4 +1,4 @@
-﻿namespace StrategyDesignPattern
+﻿namespace Strategy
 {
     // concreate strategy type
     public class BmpCompressor : ICompressor

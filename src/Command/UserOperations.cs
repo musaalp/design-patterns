@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CommandDesignPattern
+namespace Command
 {
     public class UserOperations
     {

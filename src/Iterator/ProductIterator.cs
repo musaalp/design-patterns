@@ -1,4 +1,4 @@
-﻿namespace IteratorDesignPattern
+﻿namespace Iterator
 {
     public class ProductIterator : IIterator<Product>
     {

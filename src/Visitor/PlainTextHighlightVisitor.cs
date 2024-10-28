@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace VisitorDesignPattern
+namespace Visitor
 {
     public class PlainTextHighlightVisitor : IVisitor
     {

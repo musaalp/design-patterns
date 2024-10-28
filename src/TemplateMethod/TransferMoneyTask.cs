@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace TemplateMethodDesignPattern
+namespace TemplateMethod
 {
     public class TransferMoneyTask : Task
     {

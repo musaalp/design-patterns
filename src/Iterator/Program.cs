@@ -1,4 +1,4 @@
-﻿namespace IteratorDesignPattern
+﻿namespace Iterator
 {
     class Program
     {

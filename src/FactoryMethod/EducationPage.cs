@@ -1,4 +1,4 @@
-﻿namespace FactoryMethodDesignPattern
+﻿namespace FactoryMethod
 {
     public class EducationPage : Page
     {

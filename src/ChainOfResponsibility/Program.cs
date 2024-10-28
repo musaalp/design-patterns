@@ -1,7 +1,6 @@
 ﻿using ChainOfResponsibility.AnotherSample;
-using System;
 
-namespace ChainOfResponsibilityDesignPattern
+namespace ChainOfResponsibility
 {
     class Program
     {

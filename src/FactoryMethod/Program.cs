@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FactoryMethodDesignPattern
+namespace FactoryMethod
 {
     class Program
     {

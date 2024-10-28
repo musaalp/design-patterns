@@ -1,4 +1,4 @@
-﻿namespace FacadeDesignPattern
+﻿namespace Facade
 {
     public class ShoppingFacade
     {

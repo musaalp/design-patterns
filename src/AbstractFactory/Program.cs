@@ -1,4 +1,4 @@
-﻿namespace AbstractFactoryDesignPattern
+﻿namespace AbstractFactory
 {
     class Program
     {

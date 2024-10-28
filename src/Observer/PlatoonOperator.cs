@@ -1,4 +1,4 @@
-﻿namespace ObserverDesignPattern
+﻿namespace Observer
 {
     /// <summary>
     /// concreate observer

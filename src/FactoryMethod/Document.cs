@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace FactoryMethodDesignPattern
+namespace FactoryMethod
 {
     public abstract class Document
     {

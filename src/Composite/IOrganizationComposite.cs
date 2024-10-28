@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CompositeDesignPattern
+﻿namespace Composite
 {
     public interface IOrganizationComposite : IComposite
     {

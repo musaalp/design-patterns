@@ -1,4 +1,4 @@
-﻿namespace DecoratorDesignPattern
+﻿namespace Decorator
 {
     class Program
     {

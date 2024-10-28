@@ -1,6 +1,6 @@
 ﻿using Strategy.AnotherSample;
 
-namespace StrategyDesignPattern
+namespace Strategy
 {
     class Program
     {

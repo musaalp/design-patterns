@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ChainOfResponsibilityDesignPattern
+namespace ChainOfResponsibility
 {
     public class TeamResponsible : RequestPermissionResponsible
     {

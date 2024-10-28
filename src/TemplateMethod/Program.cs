@@ -1,7 +1,6 @@
-﻿using System;
-using TemplateMethod.AnotherSample;
+﻿using TemplateMethod.AnotherSample;
 
-namespace TemplateMethodDesignPattern
+namespace TemplateMethod
 {
     class Program
     {

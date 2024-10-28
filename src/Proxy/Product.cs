@@ -1,4 +1,4 @@
-﻿namespace ProxyDesignPattern
+﻿namespace Proxy
 {
     public class Product
     {

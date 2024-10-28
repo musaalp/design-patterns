@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ProxyDesignPattern
+namespace Proxy
 {
     public interface IProductService
     {

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace VisitorDesignPattern
+﻿namespace Visitor
 {
     class Program
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AbstractFactoryDesignPattern
+namespace AbstractFactory
 {
     public class FacebookPublisher : IPublisher
     {

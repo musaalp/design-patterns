@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace DecoratorDesignPattern
+namespace Decorator
 {
     public class AromaDecorator : Decorator
     {

@@ -1,4 +1,4 @@
-﻿namespace CompositeDesignPattern
+﻿namespace Composite
 {
     public interface IComposite
     {

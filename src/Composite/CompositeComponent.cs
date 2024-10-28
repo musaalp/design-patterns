@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CompositeDesignPattern
+namespace Composite
 {
     public class CompositeComponent<TComponent> where TComponent : IComposite
     {

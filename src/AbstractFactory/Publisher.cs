@@ -1,4 +1,4 @@
-﻿namespace AbstractFactoryDesignPattern
+﻿namespace AbstractFactory
 {
     public class Publisher<T> where T : IPublisherFactory, new()
     {

@@ -1,4 +1,4 @@
-﻿namespace CommandDesignPattern
+﻿namespace Command
 {
     class Program
     {

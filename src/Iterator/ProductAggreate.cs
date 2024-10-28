@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace IteratorDesignPattern
+namespace Iterator
 {
     public class ProductAggreate : IAggregate<Product>
     {

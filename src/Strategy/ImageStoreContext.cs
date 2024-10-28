@@ -1,4 +1,4 @@
-﻿namespace StrategyDesignPattern
+﻿namespace Strategy
 {
     //strategy context
     public class ImageStoreContext

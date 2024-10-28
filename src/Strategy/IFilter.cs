@@ -1,4 +1,4 @@
-﻿namespace StrategyDesignPattern
+﻿namespace Strategy
 {
     // strategy type interface
     public interface IFilter

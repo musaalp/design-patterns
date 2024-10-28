@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ChainOfResponsibilityDesignPattern
+namespace ChainOfResponsibility
 {
     class DepartmentResponsible : RequestPermissionResponsible
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ObserverDesignPattern
+namespace Observer
 {
     /// <summary>
     /// abstract subject

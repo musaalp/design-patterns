@@ -1,4 +1,4 @@
-﻿namespace VisitorDesignPattern
+﻿namespace Visitor
 {
     public class AnchorNode : IHtmNode
     {
