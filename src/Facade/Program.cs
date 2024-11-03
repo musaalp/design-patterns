@@ -1,9 +1,13 @@
-﻿namespace Facade
+﻿using System;
+using Facade.AnotherExample;
+
+namespace Facade
 {
     class Program
     {
         static void Main(string[] args)
         {
+            // example 1
             var shoppingFacade = new ShoppingFacade();
 
             var orderDetailsModel = new OrderDetailsModel
@@ -17,6 +21,12 @@
             };
 
             shoppingFacade.FinalizeShopping(new OrderDetails(orderDetailsModel));
+
+            Console.WriteLine();
+
+            // example 2
+            var demo = new Demo();
+            demo.Run();
         }
     }
 }
